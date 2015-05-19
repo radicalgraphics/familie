@@ -1,0 +1,931 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>NAMO WordPress theme - Documentation</title>
+	
+	<meta name="description" content="This is the documentation for the Wordpress Theme - NAMO. ">
+	<meta name="author" content="Swami">
+	<meta name="copyright" content="Swami">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-06-12T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-namo-wordpress-theme-documentation">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+			<li><a href="#importing_content_from_demo" title="Importing Content from DEMO">Importing Content from DEMO</a>
+				<ul>
+					<li><a href="#importing_content_from_demo_importing_demo_content">Importing Demo Content</a>
+					<li><a href="#importing_content_from_demo_importing_options_panel_data">Importing Options Panel Data</a>
+					<li><a href="#importing_content_from_demo_importing_revolution_slider_data">Importing Revolution Slider Data</a>
+				</ul>
+			</li>
+			<li><a href="#updating_the_theme" title="Updating the theme">Updating the theme</a></li>
+			<li><a href="#updating_revolution_slider_plugin" title="Updating Revolution Slider Plugin">Updating Revolution Slider Plugin</a></li>
+			<li><a href="#general_settings" title="General Settings">General Settings</a></li>
+			<li><a href="#background" title="Background">Background</a></li>
+			<li><a href="#typography" title="Typography">Typography</a></li>
+			<li><a href="#layout" title="Layout">Layout</a></li>
+			<li><a href="#colors" title="Colors">Colors</a></li>
+			<li><a href="#import_export" title="Import/Export">Import/Export</a></li>
+			<li><a href="#menu_and_mega_menu" title="Menu and Mega Menu">Menu and Mega Menu</a></li>
+			<li><a href="#portfolio_part_1_portfolio_post_type" title="Portfolio Part 1 - Portfolio Post Type">Portfolio Part 1 - Portfolio Post Type</a></li>
+			<li><a href="#portfolio_part_2_portfolio_showcase" title="Portfolio Part 2 - Portfolio Showcase">Portfolio Part 2 - Portfolio Showcase</a></li>
+			<li><a href="#pages_part_1_page_template" title="Pages Part 1 - Page Template">Pages Part 1 - Page Template</a></li>
+			<li><a href="#pages_part_2_header_and_hero_section" title="Pages Part 2 - Header and Hero Section">Pages Part 2 - Header and Hero Section</a></li>
+			<li><a href="#page_builder_part_1_sections" title="Page Builder Part 1 - Sections">Page Builder Part 1 - Sections</a>
+				<ul>
+					<li><a href="#page_builder_part_1_sections_sections">SECTIONS</a>
+				</ul>
+			</li>
+			<li><a href="#page_builder_part_2_rows" title="Page Builder Part 2 - Rows">Page Builder Part 2 - Rows</a>
+				<ul>
+					<li><a href="#page_builder_part_2_rows_rows">ROWS</a>
+				</ul>
+			</li>
+			<li><a href="#page_builder_part_3_columns" title="Page Builder Part 3 - Columns">Page Builder Part 3 - Columns</a>
+				<ul>
+					<li><a href="#page_builder_part_3_columns_columns">COLUMNS</a>
+				</ul>
+			</li>
+			<li><a href="#page_builder_part_4_shortcodes" title="Page Builder Part 4 - Shortcodes">Page Builder Part 4 - Shortcodes</a></li>
+			<li><a href="#building_a_single_one_page_website" title="Building a Single / One Page Website">Building a Single / One Page Website</a></li>
+			<li><a href="#blog_part_1_assign_a_blog_page" title="Blog Part 1 - Assign a Blog Page">Blog Part 1 - Assign a Blog Page</a></li>
+			<li><a href="#blog_part_2_main_posts_page_setting" title="Blog Part 2 - Main Posts Page Setting">Blog Part 2 - Main Posts Page Setting</a></li>
+			<li><a href="#blog_part_3_single_posts_page_setting" title="Blog Part 3 - Single Posts Page Setting">Blog Part 3 - Single Posts Page Setting</a></li>
+			<li><a href="#shop_part_1_assign_a_shop_page" title="Shop Part 1 - Assign a Shop page">Shop Part 1 - Assign a Shop page</a></li>
+			<li><a href="#shop_part_2_woocommerce_settings" title="Shop Part 2 - WooCommerce Settings">Shop Part 2 - WooCommerce Settings</a></li>
+			<li><a href="#shop_part_3_single_shop_product_page_setting" title="Shop Part 3 - Single Shop/Product Page Setting">Shop Part 3 - Single Shop/Product Page Setting</a></li>
+			<li><a href="#third_party_plugins" title="Third Party Plugins">Third Party Plugins</a></li>
+			<li><a href="#third_party_plugins_in_pages" title="Third Party Plugins in Pages">Third Party Plugins in Pages</a></li>
+			<li><a href="#contact_page" title="Contact Page">Contact Page</a></li>
+			<li><a href="#credits" title="Credits">Credits</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Swami 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>NAMO WordPress theme - Documentation</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 05/06/2014</li>
+	<li>latest update: 06/12/2014</li>
+	<li>by: Swami</li>
+	
+	<li>email: <a href="mailto:&#115;&#119;&#97;&#109;&#105;&#64;&#98;&#114;&#97;&#110;&#100;&#101;&#120;&#112;&#111;&#110;&#101;&#110;&#116;&#115;&#46;&#99;&#111;&#109;">&#115;&#119;&#97;&#109;&#105;&#64;&#98;&#114;&#97;&#110;&#100;&#101;&#120;&#112;&#111;&#110;&#101;&#110;&#116;&#115;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing my theme. This document has all the details to help you get started with NAMO and setup your website using our theme. </p>
+	</section>
+	
+	<section id="getting_started">
+	<div class="page-header"><h3>Getting Started</h3><hr class="notop"></div>
+<h6>
+	i. Upload NAMO</h6>
+<p>
+	If you have not set up your WordPress installation yet, you can grab a copy of latest WordPress version&nbsp;<a href="http://wordpress.org/" target="_blank">here</a>.</p>
+<h6>
+	ii. Install and Activate The Theme</h6>
+<p>
+	You can install and activate the theme in more than one ways as give below -</p>
+<p>
+	Go to Appearances &gt; Themes &gt; Add New . Clicking on Add New to add the theme will Install and Activate your theme OR You can Install the theme using any FTP program, by uploading the entire &lsquo;NAMO&rsquo; folder (find it in your Downloaded File &gt; wp-content &gt; themes ) to the corresponding folder on your server ( http://yourdomain.com/wp-content/themes/ )To Activate the theme, login to your blog, and goto</p>
+<pre>
+Menu &gt; Appearance &gt; Themes.</pre>
+<p>
+	Available themes will show &lsquo;NAMO&rsquo;. Click on &lsquo;Activate&rsquo; button under NAMO.</p>
+<h6>
+	iii. Recommended WordPress Settings</h6>
+<p>
+	Comments [optional] &ndash; Goto Menu &gt; Settings &gt; Discussion and under &lsquo;Other comment settings&rsquo; check the following two options:</p>
+<p>
+	Enable threaded (nested) comments<br>
+	Break comments into pages</p>
+</section>
+<section id="importing_content_from_demo">
+	<div class="page-header"><h3>Importing Content from DEMO</h3><hr class="notop"></div>
+<h4 id="importing_content_from_demo_importing_demo_content">Importing Demo Content</h4>
+<h6>
+	<span style="font-size: 8px;">Navigate to</span></h6>
+<pre>
+Menu &gt; Tools &gt; Import</pre>
+<p>
+	and click on&nbsp;&lsquo;WordPress&rsquo;</p>
+<p>
+	<img alt="" src="assets/images/image_19.png"></p>
+<ul>
+	<li>
+		You may have to install the WordPress Importer plugin at this stage. A pop-up window will be seen. Proceed based on the instructions seen in the window to get the Importer pluugin installed.</li>
+	<li>
+		Browse for the sample content file (<strong>Downloaded File &gt; Sample Content &gt; Main Demo XML &gt;&nbsp;namo.xml</strong>), and hit &lsquo;Upload File&rsquo; button. It may take a while for WordPress to download and import file attachments.</li>
+	<li>
+		You will then have to navigate to <strong>Appearances -&gt; Menus</strong> and then assigned the imported menu as the &quot;Main Menu&quot;. &nbsp;</li>
+	<li>
+		This video tutorial on&nbsp;<a href="http://www.youtube.com/watch?v=EF_YhMHjjNU">Importing Demo Content into WordPress</a>&nbsp;gives more details on how to import the content</li>
+</ul>
+<h4 id="importing_content_from_demo_importing_options_panel_data">Importing Options Panel Data</h4>
+<p>
+	The theme has all the options panel settings defaulted to the settings that you see in the demo, In case you want to import the content once again, follow the instructions below.&nbsp;</p>
+<h6>
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Import/Export</pre>
+<p>
+	Click on Import from File in this page, and paste the content from file in the path -&nbsp;<strong>Downloaded File &gt; Sample Content &gt;&nbsp;Options Panel Import Data &gt;&nbsp;namo_options.txt</strong></p>
+<p>
+	<img alt="" src="assets/images/image_4.png" style="width: 1173px; height: 774px;"></p>
+<h4 id="importing_content_from_demo_importing_revolution_slider_data">Importing Revolution Slider Data</h4>
+<h6>
+	Navigate to</h6>
+<pre>
+Options &gt; Revolution Slider</pre>
+<p>
+	1. Click on the &#39;Import Slider&#39; option in your revolution Slider page</p>
+<p>
+	<img alt="" src="assets/images/image_1.png" style="width: 1440px; height: 344px;"></p>
+<p>
+	&nbsp;</p>
+<p>
+	2. Choose the Revolution Slider demo content from&nbsp;<strong>Downloaded File &gt; Sample Content &gt;&nbsp;Demo Revolution Sliders. </strong>Choose the zip files for the Slider one at a time.&nbsp;&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 411px; height: 217px;"></p>
+<p>
+	And Click on &#39;Import Slider&#39;</p>
+<p>
+	<img alt="" src="assets/images/image_2.png" style="width: 620px; height: 410px;"></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="updating_the_theme">
+	<div class="page-header"><h3>Updating the theme</h3><hr class="notop"></div>
+<p>
+	1. Download the latest version of the theme by logging on to your Themeforest account &nbsp;and then navigating to the &quot;<strong>Downloads</strong>&quot; section.&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_48.jpg"></p>
+<p>
+	2. Log on to your wordpress admin panel, and navigate to <strong>Appearances -&gt; Namo Options -&gt; Import / Export&nbsp;</strong> and then download a copy of the options panel. This backup is to ensure that you can restore your options &amp; settings incase something goes wrong during the theme update process. We strongly recommend doing this, though it is not mandatory</p>
+<p>
+	3. Then Navigate to <strong>Appearances -&gt; Themes</strong> , delete the current version of the Namo and then install the latest theme zip you downloaded from themeforest in the first step.&nbsp;</p>
+<p>
+	4. Alternatively you can extract the theme zip you downloaded&nbsp;in the first step, connect to your server via FTP and navigate to /<strong>wp-content/themes</strong> folder of your wordpress installation, replace the existing folder named &quot;namo&quot; with the extracted folder.&nbsp;</p>
+</section>
+<section id="updating_revolution_slider_plugin">
+	<div class="page-header"><h3>Updating Revolution Slider Plugin</h3><hr class="notop"></div>
+<p>
+	1. Please check the Namo changelog to see if there is an updated version of Slider Revolution plugin has been included.&nbsp;</p>
+<p>
+	2. If so, download the complete theme package by logging on to your Themeforest account &nbsp;and then navigating to the &quot;<strong>Downloads</strong>&quot; section and extract the zip file.&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_47.jpg"></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	3. In the package folder you will find the Documentation, Sample Content, Theme Zip, Child Theme Zip and&nbsp;<strong>revslider.zip .&nbsp;</strong></p>
+<p>
+	<strong><img alt="" src="assets/images/image_43.png"></strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	4. Login to your wordpress admin area, Navigate to the <strong>Revolution Slider Panel</strong> from the links in the left sidebar and find the &quot;Manual Plugin Update&quot; button in the right bott om corner of the screen. Click the button and upload &amp; install the <strong>revslider.zip</strong> file from step-3 to update the plugin. &nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_44.png"></p>
+</section>
+<section id="general_settings">
+	<div class="page-header"><h3>General Settings</h3><hr class="notop"></div>
+<p>	<strong>**IMPORTANT**</strong></p>
+<p>	<em>Upon activating the theme, if you find the Options Panel, screen to be blank,&nbsp;then it is highly likely the memory available for PHP in your server is very less. This is a server issue and by contacting your server support, kindly set your PHP memory limit to atleast 128 MB. You can do it yourself by editing the PHP.ini file in your server.</em></p>
+<p>	<strong>******************</strong></p>
+<h6 id="sec31">
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; General</pre>
+<ol>
+	<li>		Status of the Website&nbsp;&ndash; Before you start doing any customisations in the options panel, set the Status of the Website in Develop mode. This is very important and the changes that you make will take effect only if you have set the website in Develop mode.</li>
+	<li>		Enable Page Builder&nbsp;&ndash; Check this option, to enable page builder across the theme. However, you have option to disable the Page Builder in individual pages that is present within the PageBuilder. More details will be available on the section on&nbsp;Page Builder</li>
+	<li>		Logo&nbsp;&ndash; To upload your Logo</li>
+	<li>		Logo on Transparent Header Dark Scheme&ndash; There are options in the theme where you can have transparent header section in any of the pages. In this option here you can upload a different version of your logo that will be used in pages with Dark Scheme Transparent header (Ex. This is a page with&nbsp;<a href="http://www.brandexponents.com/namo/">Transparent header</a>. More about Transparent header and how it can be used in given in other pages.). If no image is uploaded here ,the default logo will be applied.&nbsp;</li>
+	<li>		Logo on Transparent Header Light Scheme &ndash; There are options in the theme where you can have transparent header section in any of the pages. In this option here you can upload a different version of your logo that will be used in pages with Light Scheme Transparent header(Ex. This is a page with&nbsp;<a href="http://www.brandexponents.com/namo/">Transparent header</a>. More about Transparent header and how it can be used in given in other pages.). If no image is uploaded here ,the default logo will be applied.&nbsp;</li>
+	<li>		Logo on Sidebar - If uploaded, this logo will be shown in the Sidebar.&nbsp;</li>
+	<li>		Favicon&nbsp;&ndash; To upload your Favicon</li>
+	<li>		Copy Rights text&nbsp;&ndash; Type out the Copy Rights text in the place holder here</li>
+	<li>		Google Analytics ID</li>
+	<li>		Custom CSS&nbsp;&ndash; You can provide your custom CSS code here. The CSS given in this section will supersede the styling defined in the core theme files. With this provision you can have the default theme styling overwritten.It is very vital that you do not change the theme core files to modify the styling. You can use the Custom CSS option, or create Child CSS pages. If the core files are changed, it will result in the loss of the custom changes you made, when an update is released</li>
+	<li>		Custom Javascript&nbsp;-You can provide any additional Java Script functions in the text box here.</li>
+</ol>
+</section>
+<section id="background">
+	<div class="page-header"><h3>Background</h3><hr class="notop"></div>
+<h6 id="sec31">
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Background</pre>
+<p>	<a href="http://localhost:8888/documentation/wp-content/uploads/2014/05/namo-background-options.png"><img alt="namo-background options" src="assets/images/image_6.png" style="width: 1164px; height: 652px;"></a></p>
+<ol>
+	<li>		Background None&nbsp;&ndash; Check this if you choose no background.</li>
+	<li>		Background Scale&nbsp;&ndash; Check this (only) if a single image has to be scaled as the background. You can choose from the list of images that is provided by us, or upload an image of your own choice. Make sure appropriate brackgroud settings are made.</li>
+	<li>		Custom Background&nbsp;&ndash; Check this to be able to upload any pattern/image and use the styling options given beneath</li>
+</ol>
+<p>	A set of options to set up background of your choice is given here. We have provided option to choose the background for section like the&nbsp;Top Header, Bottom Header, Header, Body, Content and Footer.</p>
+<p>	Please note that, the theme comes with a default set up for all of these. You will need to change them only if you want to customise it completely.</p>
+</section>
+<section id="typography">
+	<div class="page-header"><h3>Typography</h3><hr class="notop"></div>
+<h6 id="sec31">
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Typography</pre>
+<p>	Options to modify the Typography is given here. For each element you have the option to Modify any of the following, Font Family, Size, Letter Spacing,&nbsp;Line Height, Style, Weight, Transform and Color.</p>
+<p>	<img alt="" src="assets/images/image_9.png"></p>
+<p>	&nbsp;</p>
+<ol>
+	<li>		You have the provision to modify all of the following elements like:</li>
+</ol>
+<ol>
+	<li>		H1 &ndash; H6</li>
+	<li>		Body Text</li>
+	<li>		Sidebar Widget Title</li>
+	<li>		Sidebar Widget Text</li>
+	<li>		Sidebar Menu text</li>
+	<li>		Footer Widget Title</li>
+	<li>		Footer Widget Text</li>
+	<li>		Slidebar Menu Widget Title</li>
+	<li>		Slidebar Menu Widget Text</li>
+	<li>		Footer Copyright Text</li>
+	<li>		Navigation Menu</li>
+	<li>		Navigation Submenu</li>
+	<li>		Font Family for Buttons</li>
+	<li>		Portfolio Title</li>
+	<li>		Navigation Submenu Text &amp; Mobile Menu Text</li>
+	<li>		Sidebar Menu Text</li>
+	<li>		Page Title Module</li>
+</ol>
+<p>	Please note that, the theme comes with a default set up for all of these. You will need to change them only if you want to customise it completely.</p>
+</section>
+<section id="layout">
+	<div class="page-header"><h3>Layout</h3><hr class="notop"></div>
+<h6 id="sec31">
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Layout</pre>
+<ol>
+	<li>		Layout &ndash; Choose between Boxed or Wide Layout.</li>
+	<li>		Number of Columns in Bottom Widget Area</li>
+	<li>		Enable Sticky Header&nbsp;</li>
+	<li>		Show Search in Header</li>
+	<li>		Show Cart in Header</li>
+	<li>		Display Comments on Pages &ndash; Check this option if you want the comments to be shown in your pages.</li>
+	<li>		Show Main Navigation - Option to enable/disable the main Navigation</li>
+	<li>		Show Sliderbar -&nbsp;Option to enable/disable the Slidebar</li>
+	<li>		Custom Sidebar -&nbsp;You have options to create custom sidebars and use them in the individual website pages. Here is the step wise instruction to define a custom side bar and put to use in any of the page.
+		<ol>
+			<li>				Click on the &lsquo;Add More&rsquo; link to declare a new Sidebar. Give a name and click &lsquo;Save Changes&rsquo; button at the bottom of the page -
+				<pre>
+Options &gt; Appearance &gt; WYNN Options &gt; Layout</pre>
+				<p>					<img alt="" src="assets/images/image_7.png" style="width: 1070px; height: 823px;"></p>
+			</li>
+			<li>				Then Navigate to
+				<pre>
+Options &gt; Appearance &gt; Widgets</pre>
+				<p>					You can see your new side bar added beneath the default sidebars in the right side of this page. Expand the section to customize and define your new side bar. Once this is done, your side bar is ready to be used across pages.</p>
+				<p>					<a href="http://localhost:8888/documentation/wp-content/uploads/2014/05/namo-sidebardefine.png"><img alt="namo-sidebardefine" src="assets/images/image_39.png"></a></p>
+			</li>
+			<li>				Now, this side bar will appear in the &lsquo;Page Side bar&rsquo; options under &lsquo;Pages&rsquo;
+				<pre>
+Options &gt; Pages &gt; Add New</pre>
+				<p>					<a href="http://localhost:8888/documentation/wp-content/uploads/2014/05/namo-sidebarusage.png"><img alt="namo-sidebarusage" src="assets/images/image_40.png"></a></p>
+			</li>
+		</ol>
+	</li>
+</ol>
+<p>	Please note that, the theme comes with a default set up for all of these. You will need to change them only if you want to customise it completely.</p>
+</section>
+<section id="colors">
+	<div class="page-header"><h3>Colors</h3><hr class="notop"></div>
+<h6>
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Colors</pre>
+<ol>
+	<li>		Color Scheme &ndash; This is the theme color.</li>
+	<li>		Text Color on Background that has above color scheme &ndash; Pick the text color for the text that have the Accent/Theme color as the Back ground</li>
+	<li>		Secondary Background Color - Modules like Tabs, Accordian, Pricing Column, Quote Blog post and few more will by deafult will have this color as their Background.&nbsp;</li>
+	<li>		Secondary Text Color - Color of the text that has Secondary Background</li>
+	<li>		Secondary Border Color -&nbsp;Border of the elements that have Secondary Background</li>
+	<li>		Header Cart number Background</li>
+	<li>		Header Cart number Text Color</li>
+	<li>		Sub Menu &amp; Mobile Menu Border Color</li>
+	<li>		Slidebar Menu Border Color</li>
+</ol>
+<p>	The image below, show the position of some of these items from the demo -</p>
+<p>	<img alt="" src="assets/images/image_13.png"></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="import_export">
+	<div class="page-header"><h3>Import/Export</h3><hr class="notop"></div>
+<h6>
+	Navigate to</h6>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Import/Export</pre>
+<p>	Here you can copy/download your themes current&nbsp;Option Panel&nbsp;settings. Keep this safe as you can use it as a backup should anything go wrong. Or you can use it to restore your settings on this site (or any other site). You also have the handy option to copy the link to yours sites settings. Which you can then use to duplicate on another site.&nbsp;Do make sure you are take a back up of the existing content whenever you are updating the theme</p>
+</section>
+<section id="menu_and_mega_menu">
+	<div class="page-header"><h3>Menu and Mega Menu</h3><hr class="notop"></div>
+<p>	<strong>Set Up a Normal Menu -&nbsp;</strong></p>
+<p>	Navigate to&nbsp;</p>
+<pre>
+Options &gt; Appearance &gt; Menus</pre>
+<p>	You can use the usual WP method to create the menu for navigation</p>
+<p>	<strong>Set Up a Mega Menu -&nbsp;</strong></p>
+<p>	Navigate to&nbsp;</p>
+<pre>
+Options &gt; Appearance &gt; Menus</pre>
+<div>
+	To set any of your item as a Mega Menu, you need to assign 2 classes to the Parent Menu Item. They are&nbsp;</div>
+<ol>
+	<li>		<strong>mega</strong></li>
+	<li>		<strong>highlight - </strong>Add this class if you want the parent menu item to be highlighted&nbsp;and</li>
+	<li>		<strong>columns</strong>-4 (the number here is the number of columns you want the menu to be split as. i.e in this case it will be split into 4 columns. and if you want 3, then you have give the class as &nbsp;<strong>columns-3</strong>)</li>
+</ol>
+<p>	screen shot from the demo -&nbsp;</p>
+<p>	<img alt="" src="assets/images/image_21.png"></p>
+<p>	&nbsp;</p>
+</section>
+<section id="portfolio_part_1_portfolio_post_type">
+	<div class="page-header"><h3>Portfolio Part 1 - Portfolio Post Type</h3><hr class="notop"></div>
+<p>	The very first step to create your Portfolio page would be to load all your Portfolio content. To load the content, you will create each of your Portfolio Item as a Portfolio Post type. This section will give the details about creating a Portfolio Post type.</p>
+<h6>
+	Navigate to -</h6>
+<pre>
+Portfolios -&gt; Add New</pre>
+<ol>
+	<li>		Enter the title for the Portfolio Item in the title area</li>
+	<li>		On the right had side you have the Provision to add the Category and Tags to the Portfolio Item. Categories and Tags can be used to filter/group your Portfolio Items in the Portfolio pages.</li>
+	<li>		Upload the featured Image &ndash; This will be the thumbnail image that will be shown in the Portfolio Page</li>
+	<li>		Update the Portfolio Post Type Box with the following-
+		<ol>
+			<li>				Client Name</li>
+			<li>				Project Date</li>
+			<li>				Project url &ndash; Give the URL if you are linking your portfolio item to an external URL</li>
+			<li>				Link Thumbnail To &ndash; You can choose from 2 options &nbsp;- either to link the item to a Single Portfolio Page in your site, or to an external URL.</li>
+			<li>				External Url&nbsp;linked to the thumbnail&ndash; If you choose to link to an external URL(in the above option), you should provide the URL here.</li>
+			<li>				Double Width &ndash; You can choose to display some of your portfolio items differently. If you check this option, the Thumbnail that you uploaded as Featured Image will occupy double the width than usual. We have showcased how this would look in our demo pages&nbsp;<a href="http://www.brandexponents.com/namo/full-width-multigrid-4-column/">here</a>.</li>
+			<li>				Double Height &ndash; &nbsp;You can choose to display some of your portfolio items differently. If you check this option, the Thumbnail that you uploaded as Featured Image will occupy double the height than usual. We have showcased how this would look in our demo pages&nbsp;<a href="http://www.brandexponents.com/namo/full-width-multigrid-4-column/">here</a>.</li>
+			<li>				Portfolio Single Page Style &ndash; This is a vital option to your Portfolio post. The option you select here will govern how the Single Portfolio Page will look. We have provided a options of Sliders, Single Page Template and Lightbox. Here is a sample of each -
+				<ul>					<li>						Single Page &ndash; Page Builder&nbsp;: To build this page you have to use the &lsquo;Page Builder&rsquo; module that you see in the Portfolio Post Type Page. With the versatility of the Page Builder you can create any kind of Single Portfolio page. We have created ample demo using this variation. Here are the link to the pages from the demo that were created using page builder. This is just the starting. Your creativity is the limit!
+						<ol>
+							<li>								Portfolio with&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/sidebar-slider/">Sidebar and Slider</a></li>
+							<li>								<a href="http://www.brandexponents.com/namo/portfolio/page-builder/">Extensive Portfolio&nbsp;</a></li>
+							<li>								Portfolio with&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/stanley-cubrik/">Gallery</a></li>
+							<li>								Portfolio with&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/vertical-stacked/">Vertical Stacked</a>&nbsp;Content</li>
+						</ol>
+					</li>
+					<li>						Single Page &ndash; Floating Right Sidebar&nbsp;:&nbsp;To build this page you have to use the &lsquo;Page Builder&rsquo; module that you see in the Portfolio Post Type Page. Sample for&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/right-floating-sidebar/">Single Page &ndash; Floating Right Sidebar</a></li>
+					<li>						Single Page &ndash; Floating Left Sidebar&nbsp;:&nbsp;To build this page you have to use the &lsquo;Page Builder&rsquo; module that you see in the Portfolio Post Type Page. Sample for&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/left-floating-sidebar/">Single Page &ndash; Floating Left Sidebar</a></li>
+					<li>						Single Page &ndash; Normal Right Sidebar&nbsp;:&nbsp;To build this page you have to use the &lsquo;Page Builder&rsquo; module that you see in the Portfolio Post Type Page. Sample for&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/width-double/">Single Page &ndash; Normal&nbsp;Right Sidebar</a></li>
+					<li>						Single Page &ndash; Normal Left Sidebar&nbsp;:&nbsp;To build this page you have to use the &lsquo;Page Builder&rsquo; module that you see in the Portfolio Post Type Page. Sample for&nbsp;<a href="http://www.brandexponents.com/namo/portfolio/height-double/">Single Page -&nbsp;Normal&nbsp;Left Sidebar</a></li>
+					<li>						Horizontal Carousel Slider&nbsp;&ndash; The images uploaded under &lsquo;Slider Images&rsquo; option below will slide in a Horizontal Carousel Slider.&nbsp;Sample for&nbsp;<a href="http://www.brandexponents.com/namo/slider-and-lightbox/">Horizontal Carousel Slider</a></li>
+					<li>						Centered Slider&nbsp;-&nbsp;The images uploaded under &lsquo;Slider Images&rsquo; option below will slide in a Centered Slider.&nbsp;Sample for&nbsp;<a href="http://www.brandexponents.com/namo/slider-and-lightbox/">Centered Slider</a></li>
+					<li>						Full Screen Slider&nbsp;-&nbsp;The images uploaded under &lsquo;Slider Images&rsquo; option below will slide in a Full Screen Slider.&nbsp;Sample for&nbsp;<a href="http://www.brandexponents.com/namo/slider-and-lightbox/">Full Screen Slider</a></li>
+					<li>						Lightbox&nbsp;-&nbsp;The image uploaded as the Featured Image as mentioned in point 2 will open in a Lightbox. You could also have a video open in a Lightbox. To have a video open in light box, add the video URL to Featured Image in WordPress Media gallery as shown in the image below.<img alt="" src="assets/images/image_20.png"> Sample for&nbsp;<a href="http://www.brandexponents.com/namo/slider-and-lightbox/">Lightbox Image and Video.</a></li>
+				</ul>
+			</li>
+			<li>				Slider Images &ndash; Upload the images that you want to see in the Slider Portfolio types.</li>
+		</ol>
+	</li>
+	<li>		Hero Section Options &ndash; Hero Sections will apply only to the Single Portfolio types that uses the Page Builder. A separate section on Hero section and how it should be used is given here.</li>
+	<li>		Excerpt &ndash; The content given here will be displayed as info about the portfolio post type in the single portfolio pages.</li>
+</ol>
+</section>
+<section id="portfolio_part_2_portfolio_showcase">
+	<div class="page-header"><h3>Portfolio Part 2 - Portfolio Showcase</h3><hr class="notop"></div>
+<p>	After creating the Portfolio Post types, assigning Categories and tags and creating their respective Single Portfolio pages &ndash; the subsequent step would be to showcase you portfolio items all in any page in your website. This section will provide the details that you need to know to create the portfolio grid in your website pages.</p>
+<h6>
+	Navigate to -</h6>
+<pre>
+Pages -&gt; Add New</pre>
+<p>	or open any existing pages that you have already created.</p>
+<p>	The portfolio section in a page will be added using the Page Builder Module. We have given three ways to showcase the Portfolio grid. Here is the step wise guidance to use all of them.</p>
+<p>	&nbsp;</p>
+<ul>	<li>		Under the Page Builder section, click on the &lsquo;+&rsquo; sign as shown in the image.</li>
+</ul>
+<p>	<a href="http://www.brandexponents.com/themes/documentation/wp-content/uploads/2014/05/namo-portfolio1.png"><img alt="namo-portfolio1" src="assets/images/image_28.png"></a></p>
+<ul>	<li>		The Page Builder&rsquo;s shortcode module box will be opened as shown below. The three modules that can be used for Portfolio are highlighted. They are &ndash; Portfolio, FullWidth Portfolio, FullWidth Portfolio Gutter.<a href="http://www.brandexponents.com/themes/documentation/wp-content/uploads/2014/05/namo-portfolio2.png"><img alt="namo-portfolio2" src="assets/images/image_29.png"></a></li>
+</ul>
+<p>	A deep dive into each of these -</p>
+<h6>
+	Portfolio</h6>
+<p>	The Portfolio Shortcode will look like below -</p>
+<p>	<a href="http://www.brandexponents.com/themes/documentation/wp-content/uploads/2014/05/namo-portfolio3.png"><img alt="namo-portfolio3" src="assets/images/image_30.png"></a></p>
+<p>	This style of portfolio occupies the center portion of the page giving the page a Boxed layout. The portfolio items are separated with a default grid spacing. The below are the options that you can set to customize your Portfolio page. When you click on the Short code, the following options will be seen on the screen -&nbsp;</p>
+<ol>
+	<li>		Portfolio Columns &ndash; You can choose between 2 , 3 or 4 columns in your page</li>
+	<li>		Enable Filter &ndash; This option will enable/disable filter that shows above your portfolio items in your page</li>
+	<li>		Filter Source &ndash; You can have the filters using Categories or Tags.</li>
+	<li>		Portfolio Categories &ndash; All the existing Categories will be listed here. You can pick and choose the ones that should be shown in the page.</li>
+	<li>		Enable Masonry layout &ndash; Check this option if you want the Portfolio images to be displayed in Masonry layout.</li>
+	<li>		Items Per Page &ndash; Give a numeric value for the number of items to be displayed in the page.</li>
+	<li>		Pagination Style - You can choose the Pagination style as Infinite Scroll or &#39;Load More&#39; button</li>
+	<li>		Thumbnail Overlay Color - Overlay Color that you want on your portfolio items.&nbsp;</li>
+	<li>		Thumbnail Overlay Opacity - Opcaity of the Overlay Color.&nbsp;</li>
+</ol>
+<h6>
+	Fullwidth Portfolio</h6>
+<p>	The FullWidth Portfolio Shortcode will look like below -</p>
+<p>	<a href="http://www.brandexponents.com/themes/documentation/wp-content/uploads/2014/05/namo-portfolio5-.png"><img alt="namo-portfolio5" src="assets/images/image_31.png"></a></p>
+<p>	This style of portfolio occupies the full screen from edge to edge. There is no separation space between the portfolio items in the grid. The below are the options that you can set to customize your Portfolio page. When you click on the Short code, the following options will be seen on the screen -</p>
+<p>	&nbsp;</p>
+<ol>
+	<li>		Portfolio Columns &ndash; You can choose between 3 , 4 or 5 columns in your page</li>
+	<li>		Enable Filter &ndash; This option will enable/disable filter that shows above your portfolio items in your page</li>
+	<li>		Filter Source &ndash; You can have the filters using Categories or Tags.</li>
+	<li>		Portfolio Categories &ndash; All the existing Categories will be listed here. You can pick and choose the ones that should be shown in the page.</li>
+	<li>		Enable Masonry layout &ndash; Check this option if you want the Portfolio images to be displayed in Masonry layout.</li>
+	<li>		Items Per Page &ndash; Give a numeric value for the number of items to be displayed in the page.</li>
+	<li>		Pagination Style - You can choose the Pagination style as Infinite Scroll or &#39;Load More&#39; button.</li>
+	<li>		Thumbnail Overlay Color - Overlay Color that you want on your portfolio items.</li>
+	<li>		Thumbnail Overlay Opacity - Opcaity of the Overlay Color.&nbsp;</li>
+</ol>
+<h6>
+	Fullwidth Portfolio Gutter</h6>
+<p>	The FullWidth Portfolio Gutter Shortcode will look like below -</p>
+<p>	<a href="http://www.brandexponents.com/themes/documentation/wp-content/uploads/2014/05/namo-portfolio7.png"><img alt="namo-portfolio7" src="assets/images/image_32.png"></a></p>
+<p>	This style of portfolio occupies the full screen from edge to edge. The portfolio items are separated with a default grid spacing. The Module options for this shortcode is completely similar to&nbsp;FullWidth Portfolio.&nbsp;</p>
+<p>	With this the setting up of your portfolio page is complete.</p>
+</section>
+<section id="pages_part_1_page_template">
+	<div class="page-header"><h3>Pages Part 1 - Page Template</h3><hr class="notop"></div>
+<p>	The theme comes with 4 different types of Page Templates. Below is the list of the templates that we provide.&nbsp;</p>
+<ul>	<li>		Default Template - This is the default template for the theme. This template does not have a Side bar and a Title.&nbsp;</li>
+	<li>		Page with Sidebar - This page comes with a Sidebar. To format the Sidebar, scroll down to the bottom end of the page where you can see the Page Sidebar Options pane.&nbsp;</li>
+</ul>
+<p style="margin-left: 40px;">
+	<img alt="" src="assets/images/image_25.png" style="width: 874px; height: 508px;"></p>
+<p style="margin-left: 40px;">
+	Provide the value for the two options here, Page Sidebar Layout and Sidebar here.&nbsp;</p>
+<ul>	<li>		Page with Title - This template by default comes along with Page Title and Bread Crumbs.&nbsp;</li>
+	<li>		Contact - The contact Page is basically to be used for your Contact Page. This page will pull the details from the Contact Details that you have given in the Options Panel.&nbsp;</li>
+</ul>
+<p>	&nbsp;</p>
+</section>
+<section id="pages_part_2_header_and_hero_section">
+	<div class="page-header"><h3>Pages Part 2 - Header and Hero Section</h3><hr class="notop"></div>
+<div>
+	<p>		The Header and Hero section of a page, is one of our speciality feature. Here is a small bref of how you would be using the options provided, to get the best Header / Hero section for your page.</p>
+	<h6>
+		Navigate to</h6>
+	<pre>
+Pages -&gt; Add New</pre>
+	<p>		or open any existing pages that you have already created. Scroll down the page to reach the section that says &ndash; Header Hero Section Options</p>
+	<p>		<img alt="" src="assets/images/image_16.png"></p>
+	<p>		<img alt="" src="assets/images/image_17.png"></p>
+	<p>		<img alt="" src="assets/images/image_18.png"></p>
+	<ol>
+		<li>			Header Hero Section on&nbsp;- The hero section can have either a Slider, Image or Video. Choose the appropriate option.</li>
+		<li>			Add Revolution Slider&nbsp;- If you choose Slider, add the Revolution Slider shortcode in the text area here.</li>
+		<li>			Transparent Header&nbsp;- Check this if you want the Header to be Transparent over the image. The header position is always on top of the hero section.</li>
+		<li>			Transparent Header Color Scheme&nbsp;- This option is to choose the color scheme for the header, if you have chosen a transparent header, so on a dark image you can have Light header scheme and on a light image you can have Dark Header Scheme.</li>
+		<li>			Hero Section Position&nbsp;&nbsp;- On a non-transparent header, you can choose with to have the Hero section above or below the header.</li>
+		<li>			Hero Section Seen With Header&nbsp;- If header is non-transparent and Hero Section position is Before Header and no Custom Height is defined, then you can choose either to have the header seen with the Hero section or not.</li>
+		<li>			Hero Section Custom Height&nbsp;&ndash; If no value is specified here, the hero section by default occupies the full screen height as per the viewing device.</li>
+		<li>			Hero Section Background Color&nbsp;- BG color for the Hero Section if necessary.</li>
+		<li>			Hero Section Background Image&nbsp;- Hero Section BG image.</li>
+		<li>			Hero Section Background Repeat&nbsp;- BG Repeat option.</li>
+		<li>			Hero Section Background Attachment&nbsp;- Choose if you want the image to Scroll or Fixed.</li>
+		<li>			Hero Section Background Position&nbsp;</li>
+		<li>			Hero Section Center Scale Image to occupy container&nbsp;- Check this if you want the image to scale and occupy the full container space.</li>
+		<li>			Hero Section Enable Parallax&nbsp;- Check this if you want to apply parallax effect on the Hero Section. Please note that if you choose Parallax effect, you have to choose the BG attachment in point 11 to&nbsp;Fixed.</li>
+		<li>			Hero Section Enable Background Video&nbsp;&ndash; Check this option in addition to the option in point 1, if you are using a video for the Hero section.&nbsp;Also, while using a video for the Hero section, ensure you upload the pre-loader image in the&nbsp;Hero Section Background Image in point 9 and center scale the image.&nbsp;</li>
+		<li>			Hero Section Video .MP4 Video File&nbsp;- Upload the video to the Media Library and provide the URL here, if it is .mp4 format file.</li>
+		<li>			Hero Section Video .OGG Video File&nbsp;- Upload the video to the Media Library and provide the URL here, if it is .mp4 format file.</li>
+		<li>			Hero Section Video .Webm Video File&nbsp;- Upload the video to the Media Library and provide the URL here, if it is .mp4 format file.</li>
+		<li>			Hero Section Enable Background Overlay&nbsp;&ndash; Check this if you want to add an overlay on the Hero Section.</li>
+		<li>			Hero Section Background Overlay Color&nbsp;&ndash; Pick the overlay color</li>
+		<li>			Hero Section Background Overlay Opacity&nbsp;&ndash; Pick the overlay opacity</li>
+		<li>			Container Wrap&nbsp;</li>
+		<li>			Hero Section content&nbsp;- Add any content that you want to display over the Hero section. The content will be by default formatted in the center vertically. You can also provide a shortcode in this section here.</li>
+	</ol>
+	<p>		With such powerful you can achieve various combination of header and hero section, many of which is showcased in the demo.</p>
+</div>
+<p>	&nbsp;</p>
+</section>
+<section id="page_builder_part_1_sections">
+	<div class="page-header"><h3>Page Builder Part 1 - Sections</h3><hr class="notop"></div>
+<p>	The theme uses our custom Page Builder and is highly powerful.</p>
+<p>	Before you start using the Page Builder in your pages, <strong>please ensure that you have checked the &#39;Enable Page Builder&#39; in the options panel in the location below -&nbsp;</strong></p>
+<pre>
+<strong><span style="line-height: 19px;">Options &gt; Appearance &gt; NAMO Options &gt; General</span></strong></pre>
+<p>	This is very vital and your pagebuilder will not work if this is not checked.&nbsp;</p>
+<p>	Sections, Rows and Columns are the basic elements that are used to construct a page using the Page Builder. A Page will be broken into one or more&nbsp;Sections. One&nbsp;Section&nbsp;can have one or more&nbsp;Rows&nbsp;and in turn, one&nbsp;Row&nbsp;could be formed with one or moreCoulmns. The module/actual content of a page, is written inside the respective&nbsp;Columns.</p>
+<p>	Before you get to construct your page with the Page Builder, please note that you have to&nbsp;Name&nbsp;the page and either save it (in drafts) or publish it. Without naming and saving/publishing the the page, the configuration done using the Page builder will not take effect on the Page.</p>
+<p>	<strong>As and when you make changes to the page using the Page Builder, the changes will be Auto Saved. However deletion and re-positioning of the modules will not be Auto-Saved.&nbsp;Please make sure you click the Page Builder &#39;Save&#39; button in cases when you do not see the Changes reflecting in the Web Page.</strong></p>
+<div>
+	<h4 id="page_builder_part_1_sections_sections">SECTIONS</h4>
+	<p>		<strong>Add Sections -</strong></p>
+	<p>		Make sure you Click on&nbsp;Save&nbsp;(4) after you make any change on the Page Builder, for the changes to take effect in the page</p>
+	<ol>
+		<li>			You have to Click on (1)Add Section&nbsp;to add a new Section to your page</li>
+		<li>			Click on (2)&nbsp;Delete&nbsp;to delete an existing Section from the page</li>
+		<li>			Click on (3)&nbsp;Duplicate&nbsp;to replicate an existing Section in the page</li>
+		<li>			Click on (6) to have the visual preview of your section contents in the page builder(The visual preview is not possible for all shortcodes)</li>
+	</ol>
+	<p>		In the below image -<img alt="" src="assets/images/image_36.jpg" style="width: 809px; height: 528px;"></p>
+</div>
+<div>
+	<p>		&nbsp;</p>
+	<p>		<strong>Section Settings -</strong></p>
+	<p>		Click on the icon(5) in the above image to get the&nbsp;Section Settings&nbsp;page opened.</p>
+	<ol>
+		<li>			Background Color</li>
+		<li>			Background Image - Upload any image that you want as background for this section.</li>
+		<li>			Background Repeat</li>
+		<li>			Background Attachment</li>
+		<li>			Background Position</li>
+		<li>			Center Scale - Scale the image to fit in the container.</li>
+		<li>			Parallax Effect on Section</li>
+		<li>			Border Size - Make sure you give in only numerics for this options. Do not use &#39;px&#39; or any other unit as well.</li>
+		<li>			Border Color</li>
+		<li>			Top Padding - Make sure you give in only numerics for this options. You can use the padding to position the contents within a section.By default, every section will have a top padding of&nbsp;100px. This can be modified as per your design. If you do not want padding, do not leave it blank but mention 0. If the placeholder is left blank, the default padding of 100px will be applied.&nbsp;</li>
+		<li>			Bottom Padding - Make sure you give in only numerics for this options. You can use the padding to position the contents within a section. By default, every section will have a bottom padding of&nbsp;100px. This can be modified as per your design.&nbsp;If you do not want padding, do not leave it blank but mention 0. If the placeholder is left blank, the default padding of 100px will be applied.&nbsp;</li>
+		<li>			Enable Backgroud video - Check this if you want to add a video as background to the section.&nbsp;</li>
+		<li>			MP4 Video file link</li>
+		<li>			Enable Background Overlay</li>
+		<li>			Background Overlay Color</li>
+		<li>			Background Overlay Opacity</li>
+	</ol>
+	<p>		<img alt="" src="assets/images/image_34.jpg" style="width: 865px; height: 489px;"></p>
+	<p style="margin-left: 80px;">
+		&nbsp;</p>
+	<p>		<img alt="" src="assets/images/image_35.jpg"></p>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>A Simple Illustration from demo that explains Sections -&nbsp;</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong><img alt="" src="assets/images/image_37.png"></strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="page_builder_part_2_rows">
+	<div class="page-header"><h3>Page Builder Part 2 - Rows</h3><hr class="notop"></div>
+<h4 id="page_builder_part_2_rows_rows">ROWS</h4>
+<p>	<strong>Add Rows -</strong></p>
+<p>	&nbsp;</p>
+<ol>
+	<li>		You have to Click on (1)Add Row&nbsp;to add a new Row to your page</li>
+	<li>		Click on (2)&nbsp;Delete&nbsp;to delete an existing row from the page</li>
+	<li>		Click on (3)&nbsp;Duplicate&nbsp;to replicate an existing row in the page</li>
+	<li>		Click on (5) to have the visual preview of your Row contents in the page builder(The visual preview is not possible for all shortcodes)</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_11.jpg" style="width: 749px; height: 498px;"></p>
+<p>	&nbsp;</p>
+<p>	<strong>Row Settings -</strong></p>
+<p>	Click on the icon(4) in the above image to get the Row Settings page opened.</p>
+<ol>
+	<li>		No Wrap- You can check this option, if you want the Section containing this Row, to occupy the full width of the viewing device.</li>
+	<li>		Zero Bottom Margin - A default bottom margin will be set for every row. As per your need, you can check this option to disable the bottom margin of a row.&nbsp;</li>
+	<li>		No Space Between Columns -&nbsp;A default column space will beetween the columns. As per your need, you can check this option to disable that space between the columns.&nbsp;</li>
+</ol>
+<p>	&nbsp;</p>
+<p>	<img alt="" src="assets/images/image_5.png" style="width: 615px; height: 464px;"></p>
+<p>	&nbsp;</p>
+<p>	<strong>A Simple Illustration from demo that explains Rows -&nbsp;</strong></p>
+<p>	<strong><img alt="" src="assets/images/image_33.png"></strong></p>
+</section>
+<section id="page_builder_part_3_columns">
+	<div class="page-header"><h3>Page Builder Part 3 - Columns</h3><hr class="notop"></div>
+<h4 id="page_builder_part_3_columns_columns">COLUMNS</h4>
+<p>	<strong>Add Columns -</strong></p>
+<p>	As you might have seen, One Row in a section is same as having one full-width column in the section. Additionally you can add more columns and choose various layouts. Click on any of the buttons here to modify the layout of your section.Once you have done that click (2)Save</p>
+<p>	<img alt="" src="assets/images/image_10.png" style="width: 749px; height: 498px;"></p>
+<p>	&nbsp;</p>
+<p>	<strong>Column Settings -</strong></p>
+<p>	Click on the icon to get the Column Settings page opened -</p>
+<ul>	<li>		Background Color - You can set a specific bg color for a column</li>
+	<li>		Background Image - Or even upload an image</li>
+	<li>		Background Repeat</li>
+	<li>		Background Attachment</li>
+	<li>		Background Position</li>
+	<li>		Center Scale Image to Occupy Container</li>
+	<li>		Column Padding - this is an interesting setting. If you check this option, an additional padding of 100px will be applied for the column, and this will emphasis the look of the column block if you use this along with an appropriate background.&nbsp;</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_15.png" style="width: 963px; height: 671px;"></p>
+<p>	&nbsp;</p>
+<p>	<strong>A Simple Illustration from demo that explains Columns -&nbsp;</strong></p>
+<p>	<img alt="" src="assets/images/image_14.png"></p>
+</section>
+<section id="page_builder_part_4_shortcodes">
+	<div class="page-header"><h3>Page Builder Part 4 - Shortcodes</h3><hr class="notop"></div>
+<p>	The theme comes with ample shortcodes and can be used easily using the Page Builder. The detailed instruction on how to use the Page builder is given in the previous section.&nbsp;</p>
+<p>	This section is about &nbsp;the types of Shortcodes and&nbsp;how to use them.&nbsp;</p>
+<p>	Firstly, in the Page Builder Module click on the &#39;+&#39; sign as shown below -&nbsp;</p>
+<p>	<img alt="" src="assets/images/image_28.png" style="width: 917px; height: 572px;"></p>
+<p>	On clicking this, the pop up with the list of short codes will be displayed as below -&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	<img alt="" src="assets/images/image_8.png"></p>
+<p>	A separate page for all of these shortcodes is avaialbe in the Demo site.</p>
+<p>	The Shortcodes are of 2 types - Single Short Code and Multi Short Code&nbsp;</p>
+<p>	<strong>Single Short code - </strong>These shortcodes are just one level down. For Example the &#39;Title With Icon&#39;. When you click on this shortcode the screen below will appear&nbsp;</p>
+<p style="margin-left: 40px;">
+	<img alt="" src="assets/images/image_41.png"></p>
+<p style="margin-left: 40px;">
+	&nbsp;</p>
+<p>	On filling up the details as per your need and clicking the <strong>&#39;Submit&#39;&nbsp;</strong>button, the shortcode will be complete and will be see in your page builder like below -&nbsp;</p>
+<p style="margin-left: 40px;">
+	<img alt="" src="assets/images/image_42.png"></p>
+<p style="margin-left: 40px;">
+	&nbsp;</p>
+<p>	The Shortcodes that fall into this type are -&nbsp;</p>
+<ol>
+	<li>		Animated Chart</li>
+	<li>		Animated Numbers</li>
+	<li>		Blog</li>
+	<li>		Buttons</li>
+	<li>		Call to Action Box</li>
+	<li>		Divider</li>
+	<li>		Drop Caps</li>
+	<li>		Flex Slider</li>
+	<li>		Full Width Portfolio</li>
+	<li>		Full Width Portfolio Gutter</li>
+	<li>		Gallery</li>
+	<li>		Gallery Full Width</li>
+	<li>		Gallery Full Width Gutter</li>
+	<li>		Google Maps</li>
+	<li>		Icons</li>
+	<li>		Notifications</li>
+	<li>		Plugin Shortcodes</li>
+	<li>		Portfolio</li>
+	<li>		Portfolio Carousel</li>
+	<li>		Portfolio Details</li>
+	<li>		Recent - Blog Posts</li>
+	<li>		Spacing</li>
+	<li>		Special Title</li>
+	<li>		Special Title Style2&nbsp;</li>
+	<li>		Special Title Style3</li>
+	<li>		Team</li>
+	<li>		Text Block</li>
+	<li>		Title With Icon</li>
+	<li>		Video</li>
+</ol>
+<p>	<strong>Multi Short Code </strong>-These shortcodes are two levels down and needs to be used together only. For Example , if you Click the Accordian Toggles Shortcode you will see an empty panel in the Page Builder column as below. You can Click the Edit Button to Change the property of the outer level of the shortcode, if avaialble. And, to add the elements of this Shortcode, you need to click the &#39;+&#39; sign in the page. &nbsp;</p>
+<p>	<img alt="" src="assets/images/image_23.png"></p>
+<p>	&nbsp;</p>
+<p>	The &#39;+&#39; sign is to add the Inner shortcodes, and for Accordian Toggle it will show the options below -&nbsp;</p>
+<p style="margin-left: 40px;">
+	<img alt="" src="assets/images/image_24.png" style="width: 950px; height: 662px;"></p>
+<p style="margin-left: 40px;">
+	&nbsp;</p>
+<p>	Once you fill up the details for the Inner Shortcode module and click Submit, this element will be added to the Outer Shortcode i.e Accordian Toggles and will be seen like the image below -&nbsp;</p>
+<p style="margin-left: 40px;">
+	<img alt="" src="assets/images/image_22.png"></p>
+<p>	You can add multiple Inner Shortcodes within one OuterShortcode in this type.&nbsp;</p>
+<p>	The Shortcodes that fall into this type are -&nbsp;</p>
+<ol>
+	<li>		Accordian Toggle</li>
+	<li>		Clients</li>
+	<li>		Lists</li>
+	<li>		Percentage Bars</li>
+	<li>		Pricing Table</li>
+	<li>		Services</li>
+	<li>		Tabs</li>
+	<li>		Testimonial</li>
+</ol>
+<p style="margin-left: 40px;">
+	&nbsp;</p>
+</section>
+<section id="building_a_single_one_page_website">
+	<div class="page-header"><h3>Building a Single / One Page Website</h3><hr class="notop"></div>
+<p>
+	Namo allows you to setup your site as a Single Page / One Page website. To do this,</p>
+<p>
+	1. Create a page in the backend and build it using the page builder.</p>
+<p>
+	2. Assign a unique<strong> ID</strong> to each section in its Settings.&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_46.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	3. And then when you create the menu you need to assign the links in the format <strong>http://www.yourwebsite.com/#SECTION_ID</strong> . These links will then smooth scroll to its respective section.&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_45.png"></p>
+</section>
+<section id="blog_part_1_assign_a_blog_page">
+	<div class="page-header"><h3>Blog Part 1 - Assign a Blog Page</h3><hr class="notop"></div>
+<p>	The first step to set up a blog page, is to create an empty Page anew. Then, navigate to&nbsp;</p>
+<pre>
+Options -&gt; Settings -&gt; Readings</pre>
+<p>	In the dorp down called <strong>Posts Page</strong>, choose the Page that you created and want to be the Blog Page.&nbsp;</p>
+<p>	<img alt="" src="assets/images/image_12.png"></p>
+</section>
+<section id="blog_part_2_main_posts_page_setting">
+	<div class="page-header"><h3>Blog Part 2 - Main Posts Page Setting</h3><hr class="notop"></div>
+<p>	There are a couple of options that you should be setting up from the Options Panel to customize the way your Main Posts page will look.&nbsp;</p>
+<p>	Navigate to&nbsp;</p>
+<pre>
+Options -&gt; Appearances -&gt; NAMO Options -&gt; Blog Settings</pre>
+<ul>	<li>		Blog Style - We have offered three types of Blog Styles. Each of this Style is avialble in the Demo Site. Choose any one of the Style that you want.&nbsp;</li>
+	<li>		Blog Sidebar Position - You can choose to have a Right Sidebar or left Sidebar for your blog.</li>
+	<li>		Blog Column - Number of columns in the Main Posts page. This is applicable only if you have chosen &#39;Style - 3 Masonry&#39; for your blog.&nbsp;</li>
+</ul>
+<p>	&nbsp;</p>
+</section>
+<section id="blog_part_3_single_posts_page_setting">
+	<div class="page-header"><h3>Blog Part 3 - Single Posts Page Setting</h3><hr class="notop"></div>
+<p>	There are some settings provided in the Options Panel for Blog that will help you format the Header and Hero sections of your Sinlge Blog Post pages. <em>Having said that, the Header and Hero Section for the Main Blog page should be set up in the respective page only. </em></p>
+<p>	Please note that this setting is not mandatory.&nbsp;</p>
+<p>	Navigate to -&nbsp;</p>
+<pre>
+Options -&gt; Appearances -&gt; NAMO Options -&gt; Single Blog Hero section. </pre>
+<p>	The options given here are for the Hero section of all the Single Blog Post pages.&nbsp;</p>
+<ol>
+	<li>		<p>			Header Hero Section from - This is the most Important criteria. If you choose &#39;Options Panel - Here&#39; option, the Hero section option that you set up in this page will appear for all the Single Blog post pages. On the otherhand, if you choose &#39;Single Page&#39;, the Hero section setup in the individual Blog post page will be shown. The rest of the Hero section configuration is similar to what is given under the title <a href="#pages_part_2_header_and_hero_section">Pages Part 2 - Header and Hero Section</a></p>
+	</li>
+</ol>
+</section>
+<section id="shop_part_1_assign_a_shop_page">
+	<div class="page-header"><h3>Shop Part 1 - Assign a Shop page</h3><hr class="notop"></div>
+<p>	We use WooCommerce for shop in our theme.&nbsp;</p>
+<p>	Firstly, creat a Page anew that you want to assign as the Shop page. this can just be an empty Page. Then, follow the steps below to install Woo commerce plug in and set up the Shop in NAMO</p>
+<ol>
+	<li>		The first thing you should do is download the Woo-Commerce plugin</li>
+	<li>		You will be able to see a &#39;Pink Color&#39; notification that reads&nbsp;Install Woo Commerce Pages&nbsp;once the plugin is in place. Click on this notification and install. Clicking the&nbsp;Install Pages option, will create the&nbsp;Shop, Cart, My Account, Check Out&nbsp;and other Shop related pages</li>
+	<li>		The next step, would be to Select the Shop Page. In the options panel, Go to&nbsp;</li>
+</ol>
+<pre style="margin-left: 40px;">
+Woo Commerce &gt; Setting &gt; Products Tab &gt; Product Archive / Shop Page . </pre>
+<p style="margin-left: 40px;">
+	Pick the&nbsp;Shop&nbsp;page from this drop down, as shown in the image below -&nbsp;</p>
+<p style="margin-left: 40px;">
+	<img alt="" src="assets/images/image_38.png"  ></p>
+</section>
+<section id="shop_part_2_woocommerce_settings">
+	<div class="page-header"><h3>Shop Part 2 - WooCommerce Settings</h3><hr class="notop"></div>
+<p>	Once you have set up the Shop Page, you will have to make a couple of settings in the Options Panel to govern the way your Shop page will look.&nbsp;</p>
+<p>	Navigate to -&nbsp;</p>
+<pre>
+Options &gt; Appearance &gt; NAMO Options &gt; Shop</pre>
+<ul>	<li>		Shop With Sidebar? - Check this option if you want a Side bar in your shop page. By default, if enabled this will bring the Shop Sidebar.&nbsp;</li>
+	<li>		Number of products per page - Give the number of Products you want to show in the Main Shop Page. &nbsp;</li>
+</ul>
+</section>
+<section id="shop_part_3_single_shop_product_page_setting">
+	<div class="page-header"><h3>Shop Part 3 - Single Shop/Product Page Setting</h3><hr class="notop"></div>
+<p>	There are some settings provided in the Options Panel for Shop that will help you format the Header and Hero sections of your Sinlge Shop/Product pages.&nbsp;<em>Having said that, the Header and Hero Section for the Main Shop page should be set up in the respective page only.</em></p>
+<p>	Please note that this setting is not mandatory.&nbsp;</p>
+<p>	Navigate to -&nbsp;</p>
+<pre>
+Options -&gt; Appearances -&gt; NAMO Options -&gt; Single Shop Hero section. </pre>
+<p>	The options given here are for the Hero section of all the Single Blog Post pages.&nbsp;</p>
+<ol>
+	<li>		<p>			Header Hero Section from - This is the most Important criteria. If you choose &#39;Options Panel - Here&#39; option, the Hero section option that you set up in this page will appear for all the Single Shop/Product pages. On the otherhand, if you choose &#39;Single Page&#39;, the Hero section setup in the individual Product page will be shown. The rest of the Hero section configuration is similar to what is given under the title <a href="#pages_part_2_header_and_hero_section">&#39;Pages Part 2 - Header and Hero Section&#39;&nbsp;</a></p>
+	</li>
+</ol>
+</section>
+<section id="third_party_plugins">
+	<div class="page-header"><h3>Third Party Plugins</h3><hr class="notop"></div>
+<p>	We use the following third Party Plugins in the theme -&nbsp;</p>
+<ul>	<li>		Slider Revolution - This is a powerful slider. The Slider is simple to use and allows you to create multiple layers of content and animate each of them separately. The Slider Revolution can be used in the Hero Section &nbsp;and any where in the Pages as well. A more detailed tutorial on <strong><a href="http://www.themepunch.com/codecanyon/revolution_wp/liveguide/01.video.html">how to use Slider Revolution</a></strong> is given here.&nbsp;</li>
+	<li>		Woo Commerce - We use WooCommerce for shop in our theme. The instructions on How to set up a shop page and integrate it with the website using WooCommerce is given in the earlier sections. This is an optional plugin and needs to be installed only if you need shop in your website. A more detailed tutorial on <a href="http://code.tutsplus.com/tutorials/getting-started-with-woocommerce-initial-setup--wp-29011"><strong>how to use WooCommerce</strong></a> is given here.&nbsp;</li>
+</ul>
+<p>	&nbsp;</p>
+</section>
+<section id="third_party_plugins_in_pages">
+	<div class="page-header"><h3>Third Party Plugins in Pages</h3><hr class="notop"></div>
+<p>	To put any of the third party plugins in any of your website pages, you can use the Shortcode called &#39;Plugins Shortcode&#39; in the Page Builder.&nbsp;</p>
+<p>	Paste the shortcode of the respective plugin in the content area provided in this shortcode.&nbsp;</p>
+<p>	A screen shot from the demo that uses the Revolution slider is given below -&nbsp;</p>
+<p>	<u>Shortcode Window -&nbsp;</u></p>
+<p>	<img alt="" src="assets/images/image_26.png"></p>
+<p>	<u>How it looks in the Website -&nbsp;</u></p>
+<p>	<img alt="" src="assets/images/image_27.png"></p>
+</section>
+<section id="contact_page">
+	<div class="page-header"><h3>Contact Page</h3><hr class="notop"></div>
+<p>	This section explains how to set up your contact page.&nbsp;</p>
+<ul>	<li>		Navigate to&nbsp;</li>
+</ul>
+<pre style="margin-left: 40px;">
+Options &gt; Appearance &gt; NAMO Options &gt; Contact Settings</pre>
+<p style="margin-left: 40px;">
+	In this page provide the email address. This is essential for your Contact Page.</p>
+<ul>	<li>		Navigate to&nbsp;</li>
+</ul>
+<pre style="margin-left: 40px;">
+Options &gt; Pages &gt; Add New</pre>
+<p style="margin-left: 40px;">
+	Name the page and choose the <strong>&#39;Contact&#39; page template</strong> for this page. By assinging the Contact page template, the theme populate this page with a contact form, and the email will be sent to the email id that was provided in the Contact Settings in Options Panel (above). All other details that you need on the contact page, can be &nbsp;included using the Page BUilder.&nbsp;</p>
+</section>
+<section id="credits">
+	<div class="page-header"><h3>Credits</h3><hr class="notop"></div>
+<p>	Thanks for each of these people that made our theme look amazing with their fabulous Images and Videos</p>
+<ul>	<li>		<p>			<span style="font-family: arial, sans-serif; font-size: 13px;">Jeff Sheldon for&nbsp;</span><a href="http://shop.ugmonk.com/">UGMONK</a></p>
+	</li>
+	<li>		<p>			<a href="https://dribbble.com/srioz">Martin David&nbsp;</a></p>
+	</li>
+	<li>		<p>			<a href="https://dribbble.com/Bitencourt">Breno Bitencourt&nbsp;</a></p>
+	</li>
+	<li>		<p>			<a href="https://dribbble.com/ArtMachine">Julian Hrankov</a></p>
+	</li>
+	<li>		<p>			Mark J Sebastian for <a href="https://www.flickr.com/photos/markjsebastian/sets/72157594223783465/">The &quot;It&quot; Factor</a></p>
+	</li>
+	<li>		<p>			Dave Fayram&nbsp;for <a href="https://www.flickr.com/photos/davefayram/sets/72157624524639835">Github Shoot</a></p>
+	</li>
+	<li>		<p>			<a href="http://Unsplash.com">Unsplash.com</a></p>
+	</li>
+</ul>
+<p>	&nbsp;</p>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>	We look forward to offer extensive support for our users.&nbsp;</p>
+<p>	In case of any queries you could do either of these,</p>
+<ul>	<li>		Post the query in our dedicated&nbsp;<a href="http://brandexponents.freshdesk.com/support/home">Support Forum</a>.&nbsp;</li>
+	<li>		Contact in Skype - Skype ID:&nbsp;brandexponents</li>
+</ul>
+<p>	We will get back to you at the earliest.&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>

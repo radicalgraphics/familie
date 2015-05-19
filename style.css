@@ -1,0 +1,46 @@
+/*
+Theme Name: Namo Child
+Description: Namo Child Theme
+Author: Brand Exponents
+Template: namo
+Version: 1.0
+*/
+
+@import url("../namo/style.css");
+
+.call-to-action-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mc4wp-form input[type="email"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.mc4wp-form input[type="email"]:focus,
+.mc4wp-form input[type="email"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.mc4wp-form input[type="submit"]{
+	border: 2px solid rgb(150, 150, 150);
+	color: rgb(150, 150, 150) !important;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	min-height: 0px;
+	min-width: 0px;
+	line-height: 11px;
+	margin: 0px 0px 60px;
+	padding: 20px;
+	letter-spacing: 3px;
+	font-size: 11px;
+	background-color: inherit;"
+}
+
+.more-link {
+	color: rgb(243, 179, 59) !important;
+}
